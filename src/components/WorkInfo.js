@@ -68,11 +68,7 @@ const WorkInfo = ({ status }) => {
   } else {
     return (
       <div>
-        <label htmlFor="company">company</label>
-        <br></br>
         <p>{work.company}</p>
-        <br></br>
-        <label htmlFor="jobTitle">Job Title</label>
         <br></br>
         <p>{work.title}</p>
         <br></br>
@@ -83,8 +79,6 @@ const WorkInfo = ({ status }) => {
         <label htmlFor="endDate">Ended</label>
         <br></br>
         <p>{work.endedWork}</p>
-        <br></br>
-        <label htmlFor="tasks">Job Description</label>
         <br></br>
         <p>{work.description}</p>
       </div>

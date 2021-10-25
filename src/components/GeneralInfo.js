@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import '../index.css'
 const GeneralInfo = ({ status }) => {
   let info = {
     name: "",
@@ -16,7 +16,7 @@ const GeneralInfo = ({ status }) => {
   const [general, setGeneral] = useState(info);
   if (status === true) {
     return (
-      <div>
+      <div >
         <h1>General Information</h1>
         <label htmlFor="name">name</label>
         <br></br>
@@ -53,15 +53,9 @@ const GeneralInfo = ({ status }) => {
     return (
       <div>
         <h1>General Information</h1>
-        <label htmlFor="name">name</label>
-        <br></br>
         <p>{general.name}</p>
         <br></br>
-        <label htmlFor="phone">phone number</label>
-        <br></br>
         <p>{general.phone}</p>
-        <br></br>
-        <label htmlFor="email">email</label>
         <br></br>
         <p>{general.email}</p>
       </div>

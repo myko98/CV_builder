@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../index.css"
 
 function EducationInfo({ status }) {
   let education = {
@@ -18,7 +19,7 @@ function EducationInfo({ status }) {
 
   if (status === true) {
     return (
-      <div>
+      <div >
         <label htmlFor="school">school</label>
         <br></br>
         <input
@@ -60,11 +61,7 @@ function EducationInfo({ status }) {
   } else {
     return (
       <div>
-        <label htmlFor="school">school</label>
-        <br></br>
         <p>{edu.school}</p>
-        <br></br>
-        <label htmlFor="degree">degree</label>
         <br></br>
         <p>{edu.degree}</p>
         <br></br>
