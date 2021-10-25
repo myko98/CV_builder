@@ -28,3 +28,9 @@ things to do to complete project
 
 - style css
   add final submit button to remove all label tags
+  https://www.youtube.com/watch?v=ZawAwPYrxGA
+
+10/25/2021
+
+- used this guys buttons https://fdossena.com/?p=html5cool/buttons/i.frag
+- pretty much done, could style it a bit more but gonna move on for now!
